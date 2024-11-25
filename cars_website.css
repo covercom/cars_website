@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal
+}
+
+
+
+.menu {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1) ), url(https://topsecret-jpn.com/wp-content/uploads/20230110-toppage-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 17px;
+    height: 900px;
+
+
+}
+
+.headertext {
+    color: #c7cfcc;
+    //font-family: 'Arial';//
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: 30px;
+
+}
+
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.item {
+    width: 30%;
+    background: linear-gradient( #896c33, #694e1a );
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 3px;
+    box-shadow: 10px 5px 5px #261d0a;
+}
+
+.item img{
+    height: 200px;
+
+}
+
+
+img {
+    width: 100%;
+}
+
+button {
+    padding: 7px 10px;
+    border-radius: 20px;
+    background-color: gray;
+
+}
+
+a {
+    color: #2e2e2e;
+    //font-family: 'Arial';//
+}
+
+.heading{
+    //font-family: 'Arial';//
+    display: flex;
+    justify-content: center;
+}
+
+.description{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+hr {
+    background-color: #2e2e2e;/* Цвет линии для браузера Firefox и Opera */
+    height: 1px;
+  /* границы уберем */
+    border: 0;
+}
+
+.white{
+    color: #c7cfcc;
+}
+
+
+
+.abp {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bp{
+    width: 30%;
+    margin-left: 1%;
+}
+
+.gray {
+    color: #2e2e2e;
+    font-family: 'Arial';
+
+
+
+}
+
+
+.l{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
